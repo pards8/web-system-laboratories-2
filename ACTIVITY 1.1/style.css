@@ -1,0 +1,50 @@
+:root{
+    --bg1: #151828;
+    --b2: #1B1F34 ;
+    --body: #959DCC;
+    --brand: #FFAB76;
+    --white: #fff;
+
+}
+
+.nav-background{
+   background-color: var(--b2);
+
+}
+.navbar-nav .nav-link {
+    color: var(--white) !important;
+}
+
+.navbar-brand {
+    color: var(--white) !important; 
+}
+.btn{
+    text-decoration: none; 
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn:hover{
+    color:white;
+
+}
+@font-face {
+    font-family: manrope ;
+    src: url('Manrope-VariableFont_wght.ttf');
+}
+body{
+    font-family: manrope;
+}
+
+
+.row{
+    padding-left: 125px;
+}
+.hello{
+    padding-right: 610px;
+}
+.container {
+    padding-right: 120px;
+}
+.lead{
+    text-align: justify;
+}
