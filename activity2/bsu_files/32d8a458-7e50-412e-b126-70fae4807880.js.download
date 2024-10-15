@@ -1,0 +1,2 @@
+/**handles:uacf7-country-select-script**/
+!function(o){function n(){var n;o(".wpcf7-form").each(function(){var n=o(this).find('input[name="_wpcf7"]').val();o(".uacf7-form-"+n).find("input.uacf7_country_dropdown_with_flag").each(function(){var n=jQuery(this).attr("id"),t=jQuery(this).attr("country-code"),r,r=void 0!==(r=jQuery(this).attr("only-countries"))&&""!=r?JSON.parse(r):"";o("#"+n).countrySelect({defaultCountry:t,onlyCountries:r,responsiveDropdown:!0,preferredCountries:[]})})})}n(),o(document).on("click",".uacf7_repeater_add",function(){n()})}(jQuery);

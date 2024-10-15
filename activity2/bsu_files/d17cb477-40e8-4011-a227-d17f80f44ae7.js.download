@@ -1,0 +1,2 @@
+/**handles:bptl-timeline-config**/
+jQuery(document).ready(function(d){var e=d(".bp_titleline");Object.values(e).map((e,t)=>{var i=d(e).data("timeline");if(!i)return!1;var{timeline_type:r,date_location:a,item_datas:o,start_item:l,move_item:m,visible_items:n,vertica_trigger:s,rtl_mode:v}=i;d(i).removeAttr("data-timeline"),d(e).timeline({mode:r||"vertical",horizontalStartPosition:a,forceVerticalMode:600,verticalStartPosition:a,verticalTrigger:`${s}%`,moveItems:parseInt(m),startIndex:parseInt(l),visibleItems:parseInt(n),rtlMode:"1"===v})})});

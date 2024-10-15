@@ -1,0 +1,2 @@
+/**handles:submission_id_public_js**/
+!function(n){document.addEventListener("wpcf7submit",function(i){var a=i.detail.contactFormId;0<n(".uacf7-form-"+a).find(".wpcf7-uacf7_submission_id").length&&n.ajax({url:submission_id_obj.ajaxurl,type:"POST",data:{action:"uacf7_update_submission_id",form_id:a,ajax_nonce:submission_id_obj.nonce},success:function(i){n(".uacf7-form-"+a).find(".wpcf7-uacf7_submission_id").attr("value",i.meta_data)}})},!0)}(jQuery);
